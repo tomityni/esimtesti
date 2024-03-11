@@ -1,1 +1,256 @@
-body { background-color: #eeede7; } 
+body { background-color: #3a3b3c;
+    font-family: 'Avenir Next LT Pro', sans-serif;
+    height: 100vh
+} 
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Avenir Next LT Pro', sans-serif;
+
+}
+
+.navbar{
+   display: flex;
+   align-items: center; 
+   justify-content: space-between;
+   height: 80px;
+   padding: 0 50px
+}
+
+.navbar h2{
+font-weight: 600;
+color: #eeede7;
+}
+
+.navbar ul{
+display: flex;
+}
+
+.navbar ul li{
+list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #eeede7
+    font-size: 16px;
+    margin-right: 25px;
+    transition: color 0.3s ease;
+    
+
+}
+
+.navbar ul li:last-child a {
+   margin: 0;
+   
+}
+
+.navbar ul li a:visited {
+    color: #eeede7;
+}
+
+.main{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+font-size: x-large;
+}
+
+.main h4{
+font-size: xx-large;
+color: #eeede7;
+font-weight: 600;
+}
+ 
+.main p.title{
+    font-size: large;
+    font-weight: 600;
+    color: #eeede7;
+    margin-top: 8px;
+    text-align: center;
+    width: 60%;
+}
+.info{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+font-size: x-large;
+color: #eeede7;
+}
+
+.info{
+   margin: 50px 50px 30px;
+   padding: 10px 20px;
+   background: ; 
+   border-radius: 12px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    padding: 0 50px;
+
+}
+
+.about img{
+width: 280px;
+
+}
+.hire-btn{
+background: #b9b7bd;
+padding: 6px 30px;
+border: none;
+font-size: 16px;
+cursor: pointer;
+border-radius: 6px;
+transition: background-color 0.3s ease;
+
+}
+
+.otayhteytta {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.otayhteytta h1 {
+    font-size: xx-large;
+    color: #eeede7;
+    font-weight: 600;
+}
+
+.otayhteytta p {
+    font-size: large;
+    font-weight: 600;
+    color: #eeede7;
+    margin-top: 8px;
+    text-align: center;
+    width: 80%;
+}
+
+.otayhteytta li{
+    color: #eeede7;
+}
+
+footer{
+    position: relative;
+    background: #212121;
+    padding: 80px 50px 40px;
+    margin-top: 100px;
+}
+
+
+
+footer .start p{
+    font-size: 13px;
+    width: 35%;
+}
+
+footer .start button{
+    background: transparent;
+    border: 1px solid #000;
+    cursor: pointer;
+    padding: 8px 20px;
+    border-radius: 100px;
+    transition: all 0.3s ease;
+}
+
+footer .start button:hover{
+    background-color: #fff;
+    border-color: #fff;
+}
+
+footer .cols{
+    display: flex;
+    align-items: start;
+}
+
+footer .cols .about-col{
+    flex: 3;
+}
+
+footer .cols .about-col h3{
+    color: #eeede7;
+    margin-bottom: 20px;
+}
+
+footer .cols .about-col p{
+    color: #eeede7;
+    font-size: 13px;
+}
+
+footer .cols .links-col{
+    flex: 3;
+}
+
+footer .cols .links-col h4, footer .cols .news-col h4{
+    color: #eeede7;
+    margin-bottom: 20px;
+}
+
+footer .cols .links-col a{
+    display: block;
+    text-decoration: none;
+    color: #7b7b7b;
+    font-size: 14px;
+    line-height: 26px;
+    transition: color 0.3s ease;
+}
+
+footer .cols .links-col a:hover{
+    color: #ffb742;
+}
+
+footer .cols .news-col{
+    flex: 3;
+}
+
+footer .cols .news-col p{
+    color: #7b7b7b;
+    font-size: 15px;
+}
+
+footer .cols .news-col form{
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+footer .cols .news-col form input{
+    width: 100%;
+    background: #212529;
+    border: none;
+    padding: 13px;
+    border-radius: 100px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+footer .cols .news-col form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background: #ffb742;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+}
